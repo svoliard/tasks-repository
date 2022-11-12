@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            background-color: #6495ED;
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <fieldset>
+            <legend><b>Personal Info</b></legend>
+            <div>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" placeholder="Danilov..." required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="info@gmail.com" readonly>
+            </div>
+            <div>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" placeholder="Eugen..." required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Top Secret!" minlength="8" required>
+                <label for="datetime">Date of registration:</label>
+                <input type="datetime-local" name="datetime" id="datetime">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><b>Course Info</b></legend>
+            <div> Course:
+                <p></p><input type="radio" id="wd" name="course" value="course wd"> Web Design</p>
+                <p></p><input type="radio" id="sql" name="course" value="course sql" checked> SQL</p>
+                <p></p><input type="radio" id="dev" name="course" value="course dev"> Programing</p>
+            </div>
+            <div>
+                <p>Carier Goal:</p>
+                <select>
+                    <option value="programmer" selected>Programmer</option>
+                    <option value="itpm">IT Project Manager</option>
+                    <option value="webdev">Web Developer</option>
+                    <option value="softdev">Software Developer</option>
+                </select>
+            </div>
+            <div>
+                <p>Skills(check all that apply):</p>
+                <p><input type="checkbox" id="unix" name="unix" value="yes">UNIX <input type="checkbox" id="vim"
+                        name="vim" value="yes">VIM</p>
+                <p><input type="checkbox" id="html" name="html" value="yes">HTML <input type="checkbox" id="css"
+                        name="css" value="yes">CSS</p>
+                <p><input type="checkbox" id="python" name="python" value="yes">Python <input type="checkbox" id="js"
+                        name="js" value="yes">JavaScript</p>
+            </div>
+            <div>
+                <p>Describe any additional skills you have:</p>
+                <textarea name="skills" id="skills" cols="30" rows="10" placeholder="About skills..."></textarea>
+            </div>
+            <div>
+                <input type="file" name="file" id="file" accept=".jpg" multiple>
+            </div>
+        </fieldset>
+        <button type="submit" title="submit">Enter my information</button><button type="reset"
+            title="reset">Remove</button>
+    </form>
+</body>
+
+</html>
