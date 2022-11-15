@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with CSS</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 0.5px solid rgba(0, 0, 0, 0.801);
+            font-size: 25px;
+        }
+
+        #compCons {
+            background-color: rgba(230, 23, 23, 0.788);
+            font-style: oblique;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Table with CSS styles</h1>
+
+    <table style="width:50%">
+        <tr>
+            <th>Categorii de clienti</th>
+            <th>CTG(Core Target Group)</th>
+            <th>Rata de cumparare(%)</th>
+        </tr>
+        <tr
+            style="background-color: rgb(99, 182, 44) ; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;">
+            <td>Horeca</td>
+            <td>Restaurante cu meniu international</td>
+            <td style="font-size: 17px ;">20 %</td>
+        </tr>
+        <tr>
+            <td>Trader</td>
+            <td>Magazine de proximitate</td>
+            <td>35 %</td>
+        </tr>
+        <tr>
+            <td>SCO</td>
+            <td id="compCons">Companii de constructii</td>
+            <td style="font-size: 20px ;">15 %</td>
+        </tr>
+        <tr>
+            <td>Utilizatori finali</td>
+            <td>Persoane fizice</td>
+            <td>30 %</td>
+        </tr>
+    </table>
+
+    <p>Careva principii din jobul actual</p>
+</body>
+
+</html>

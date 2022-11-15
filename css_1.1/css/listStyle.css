@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+#info {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+div {
+    background-color: bisque;
+    border: 3px salmon;
+}
+
+p {
+    font-size: small;
+    font-style: italic;
+}
