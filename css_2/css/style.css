@@ -1,0 +1,40 @@
+body {}
+
+h2 {
+    font-weight: 700;
+    font-family: fantasy;
+}
+
+ul {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+li:first-child:before {
+    content: '\1F92A';
+    padding: 10px;
+}
+
+li:nth-child(2)::before {
+    content: '\263A';
+}
+
+li:nth-child(3)::before {
+    content: '\1F914';
+}
+
+li:nth-child(4)::before {
+    content: '\1F973';
+}
+
+li:nth-child(5)::before {
+    content: url(/image/totoro.png);
+}
+
+li:last-child::before {
+    content: url(/image/dc.png);
+}
