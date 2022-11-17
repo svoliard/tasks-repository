@@ -1,0 +1,33 @@
+* {
+    font-weight: 700;
+    font-style: oblique;
+}
+
+fieldset {
+    background-color: azure;
+}
+
+input[type=text]:focus {
+    background-color: hsl(350, 67%, 74%);
+    border: 4px solid red
+}
+
+input[type=password]:focus {
+    background-color: hsl(350, 67%, 74%);
+    border: 4px solid red;
+
+}
+
+#email {
+    background-color: grey;
+}
+
+input[type=radio]:focus {
+    color: rgb(8, 8, 20);
+}
+input[type=file]:hover {
+    color: palevioletred;
+}
+input[type=file]:focus {
+    background-color: palevioletred;
+}
