@@ -18,7 +18,7 @@ input[type=password]:focus {
 
 }
 
-#email {
+input:disabled {
     background-color: grey;
 }
 
@@ -30,4 +30,7 @@ input[type=file]:hover {
 }
 input[type=file]:focus {
     background-color: palevioletred;
+}
+input:checked {
+    accent-color: yellow;
 }
