@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+.color-border {
+    width: 400px;
+    margin: 50px auto 0;
+    padding: 5px;
+    background: linear-gradient(#2BBE94 50%, #0D464F 50%);
+    border-radius: 50%;
+}
+
+.color-border img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+p {
+    margin-bottom: 200px;
+}
+
+.hidden {
+    padding: 0 200px 0;
+}
+
+.veggies {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 30px;
+    padding: 2px;
+    box-shadow: 5px 10px rgb(82, 79, 79);
+}
+
+.bleach {
+    margin-bottom: 2.5rem;
+    padding: 10px;
+    border-style: double;
+    background: #a32b0e;
+    box-shadow: 10px 10px 30px #2400ff, -10px -10px 30px #7e2bd9;
+}
