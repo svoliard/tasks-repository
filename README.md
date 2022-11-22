@@ -7,3 +7,4 @@
 (#6 to do)Exercises: css_1; css_1.1(Css_Styles)
 (#7 to do)Exercises: css_2; css_2.1
 (#9 to do)Exercices: css_3(colorTable)
+you see me?
