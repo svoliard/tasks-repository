@@ -26,8 +26,8 @@
 
 .containerB {
     box-sizing: content-box;
-    width: 400;
-    height: 10;
+    width: 400px;
+    height: 10px;
     border: 7px solid goldenrod;
     padding: 15px 20px;
     margin-left: 3rem;
@@ -37,7 +37,7 @@
 
 .containerBA {
     box-sizing: border-box;
-    width: 400;
+    width: 400px;
     height: 10px;
     border: 7px solid rgb(168, 23, 212);
     padding: 1rem 3rem 5rem 2rem;
