@@ -21,11 +21,8 @@ p {
     margin-bottom: 200px;
 }
 
-.hidden {
-    padding: 0 200px 0;
-}
-
 .veggies {
+    margin-left: 200px;
     margin-left: 3rem;
     margin-bottom: 2rem;
     border-radius: 30px;
