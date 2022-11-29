@@ -1,0 +1,104 @@
+.bigcontainer {
+    margin: 5% 20%;
+    height: 1450px;
+    width: 1100px;
+    box-sizing: border-box;
+    background: #FFDAB9;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+        -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+        23px 0 20px -23px rgba(0, 0, 0, 0.8),
+        0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.box {
+    display: inline-flex;
+}
+
+div[class^="block"] {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2) inset;
+    border-radius: 5px;
+    margin: 25px;
+    background: #FFE4C4;
+    font-family: cursive;
+}
+
+.pictures {
+    height: 290px;
+    width: 290px;
+    display: block;
+    margin: 5px;
+}
+
+.bacground_image {
+    background-image: url(/image/background2.jpg);
+    text-align: center;
+}
+
+.block_2 .footer::selection {
+    background: transparent;
+    text-shadow: 0 2px 3px #1E90FF, 0 0 8px#00BFFF;
+}
+
+h3::first-letter {
+    font-size: 28px;
+    color: chocolate;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.block_3 p {
+    text-indent: 2em;
+}
+
+.block_4 p {
+    word-break: break-all;
+    color: rgb(54, 66, 62);
+    font-weight: bolder;
+    font-size: 32px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.block_5 p {
+    letter-spacing: 0.4em;
+}
+
+.block_8 {
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 4px -4px blue;
+    font-weight: 800;
+}
+
+.block_9 p {
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.block_10 blockquote {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(219, 48, 76);
+}
+
+.block_11 footer {
+    color: darkred;
+    font-size: xx-large;
+    font-weight: 850;
+}
+
+.block_11 p {
+    text-transform: uppercase;
+}
