@@ -8,3 +8,5 @@
 (#7 to do)Exercises: css_2; css_2.1
 (#9 to do)Exercices: css_3(colorTable)
 (#10 to do)Exercises: css_4; css_4_1
+(#11 to do)Exercises: css_5
+(#12 to do)Exercises: css_6(from branch Danilov)
