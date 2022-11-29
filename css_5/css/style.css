@@ -37,7 +37,7 @@ div[class^="block"] {
     text-align: center;
 }
 
-.block_2 footer::selection {
+.block_2 .footer::selection {
     background: transparent;
     text-shadow: 0 2px 3px #1E90FF, 0 0 8px#00BFFF;
 }
