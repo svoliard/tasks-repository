@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    width: 1800px;
+}
+
+.row::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.row {
+    display: inline-block;
+}
+
+* html .row {
+    height: 1%;
+}
+
+.row {
+    display: block;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.inner-header {
+    background: #EE6363;
+    height: 200px;
+    width: 1800px;
+    background: url(/image/alternative.jpeg) no-repeat center center / cover;
+    opacity: 0.9;
+    position: relative;
+}
+
+.inner-header div {
+    display: inline-block;
+    position: absolute;
+}
+
+img {
+    max-height: 150px;
+    margin: 15px 0 0 15px;
+    border-radius: 20px;
+}
+
+.nav {
+    right: 20px;
+    bottom: 20px;
+}
+
+
+
+.nav li {
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(10, 10, 10);
+    text-shadow: 1.5px 2px white, -1.5px 2px whitesmoke;
+}
+
+a:hover {
+    color: aqua;
+}
+
+.main {
+    width: 70%;
+    float: left;
+}
+
+.inner-main {
+    padding: 7px;
+    background: #EE6363;
+    min-height: 500px;
+    background: url(/image/paperback.jpg) no-repeat center center / cover;
+    column-width: 150px;
+    column-count: 3;
+    font-weight: bolder;
+    line-height: 30px;
+}
+
+.sidebar {
+    width: 30%;
+    float: left;
+    padding-left: 10px;
+}
+
+.inner-sidebar {
+    background: url(/image/sideback.jpg) no-repeat center center / cover;
+    min-height: 500px;
+    padding: 20px;
+    font-family: cursive;
+}
+
+
+.wines li {
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: 1.5px 2px grey;
+    list-style-type: '🍇';
+    color: purple;
+    transition: transform .5s ease;
+}
+
+.wines li:hover {
+    transform: translateX(15px);
+}
+
+.footer {
+    margin-top: 10px;
+}
+
+.inner-footer {
+    background: url(/image/footerback.jpg) no-repeat center center / cover;
+    height: 150px;
+    text-align: center;
+    padding: 3px;
+    color: rgba(255, 30, 30, 0.884);
+    font-size: 1.5em;
+}
+
+.inner-footer:hover {
+    background: url(/image/footeralt.jpg) no-repeat center center / cover;
+}
