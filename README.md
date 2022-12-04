@@ -10,3 +10,5 @@
 (#10 to do)Exercises: css_4; css_4_1
 (#11 to do)Exercises: css_5
 (#12 to do)Exercises: css_6(from branch Danilov)
+(#13 to do)Exercises: css_7(from branch Danilov)
+(#14 to do)Exercises: css_8(from branch Danilov)
