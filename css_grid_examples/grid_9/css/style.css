@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #2b3043;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 2fr;
+    gap: 15px;
+    grid-template-areas:
+        "header header header"
+        "sidebar main main"
+        "sidebar footer_1 footer_2";
+}
+
+.wrapper div {
+    border-radius: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: #fda062;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #02a787;
+}
+
+.main {
+    grid-area: main;
+    background-color: #35daba;
+}
+
+.footer_1 {
+    grid-area: footer_1;
+    background-color: #fd6057;
+}
+
+.footer_2 {
+    grid-area: footer_2;
+    background-color: #fea062;
+}

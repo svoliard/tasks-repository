@@ -1,0 +1,88 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(51, 47, 47);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 15px;
+    grid-template-areas:
+        "box1 box1 box2 box3"
+        "box4 box5 box6 ."
+        "box7 box7 box8 box9"
+        "box7 box7 box10 ."
+        "box12 box12 box12 box11";
+}
+
+div[class^=box] {
+    border: 2px solid white;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.box_1 {
+    grid-area: box1;
+    background-color: rgba(0, 255, 255, 0.808);
+}
+
+.box_2 {
+    grid-area: box2;
+    background-color: rgb(0, 153, 255);
+}
+
+.box_3 {
+    grid-area: box3;
+    background-color: rgb(58, 97, 97);
+}
+
+.box_4 {
+    grid-area: box4;
+    background-color: rgb(131, 54, 108);
+}
+
+.box_5 {
+    grid-area: box5;
+    background-color: rgb(150, 228, 105);
+}
+
+.box_6 {
+    grid-area: box6;
+    background-color: rgb(65, 43, 90);
+}
+
+.box_7 {
+    grid-area: box7;
+    background-color: rgba(0, 255, 255, 0.37);
+}
+
+.box_8 {
+    grid-area: box8;
+    background-color: rgb(176, 199, 91);
+}
+
+.box_9 {
+    grid-area: box9;
+    background-color: rgb(88, 176, 235);
+}
+
+.box_10 {
+    grid-area: box10;
+    background-color: rgb(218, 111, 24);
+}
+
+.box_11 {
+    grid-area: box11;
+    background-color: rgba(255, 8, 0, 0.562);
+}
+
+.box_12 {
+    grid-area: box12;
+    background-color: rgb(16, 173, 160);
+}

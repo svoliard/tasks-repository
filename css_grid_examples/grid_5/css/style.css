@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 10px;
+    font-family: cursive;
+    background-color: rgb(63, 59, 59);
+    font-weight: bolder;
+    font-size: 2em;
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.box {
+    border: 2px solid palevioletred;
+    background: url(/image/sacura.jpg) no-repeat;
+    box-shadow: 4px 4px plum;
+    color: rgb(102, 54, 214);
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
