@@ -1,0 +1,12 @@
+const shuttleName = 'Determinatiom';
+typeof (shuttleName);
+const milePerKm = 0.621;
+typeof (milePerKm);
+const mphShuttleSpeed = 17500;
+typeof (mphShuttleSpeed);
+const kmDistanceToMars = 255000000;
+typeof (kmDistanceToMars);
+const milesToMars = kmDistanceToMars * milePerKm;
+const hoursToMars = milesToMars / mphShuttleSpeed;
+const daysToMars = hoursToMars / 24;
+console.log(shuttleName + " will take " + daysToMars + " days to reach Mars. ");
