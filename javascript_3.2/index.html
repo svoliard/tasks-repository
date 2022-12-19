@@ -6,24 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="/js/script.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <script src="/js/script.js"></script>
-    <fieldset>
-        <legend>CITIZEN</legend>
-        <label for="num1">1st Number:</label>
-        <input type="text" id="num1" />
-        <div id="operator_btns">
-            <button id="multiplication" onclick="op='*'">x</button>
-            <button id="divide" onclick="op='/'">:</button>
-        </div>
-        <label for="num2">2nd Number:</label>
-        <input type="text" id="num2" />
-        <button onclick="func()">Result</button>
-        <p id="result">Here is results!</p>
-    </fieldset>
+    <form>
+        <fieldset>
+            <legend>CITIZEN</legend>
+            <label for="firstNumber">1st Number :</label>
+            <input type="number" id="firstNumber"><br>
+            <button type="button" onclick="multiply()" value="Multiply">x</button>
+            <button type="reset">Clear</button>
+            <button type="button" onclick="divide()" value="Divide">/</button><br>
+            <label for="secondNumber">2nd Number :</label>
+            <input type="number" id="secondNumber">
+        </fieldset>
+    </form>
+    <p id="result">Result is:</p>
 </body>
 
 </html>

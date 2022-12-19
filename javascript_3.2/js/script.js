@@ -1,15 +1,10 @@
-let op;
-function func() {
-    let result;
-    let num1 = Number(document.getElementById("num1").value);
-    let num2 = Number(document.getElementById("num2").value);
-    switch (op) {
-        case '*':
-            result = num1 * num2;
-            break;
-        case '/':
-            result = num1 / num2;
-            break;
-    }
-    document.getElementById("result").innerHTML = result;
+function multiply() {
+    firstInputNumber = document.getElementById("firstNumber").value;
+    secondInputNumber = document.getElementById("secondNumber").value;
+    document.getElementById("result").innerHTML = firstInputNumber * secondInputNumber;
+}
+function divide() {
+    firstInputNumber = document.getElementById("firstNumber").value;
+    secondInputNumber = document.getElementById("secondNumber").value;
+    document.getElementById("result").innerHTML = firstInputNumber / secondInputNumber;
 }
