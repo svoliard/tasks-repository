@@ -1,4 +1,4 @@
-.global {
+.container {
     box-sizing: border-box;
     width: 900px;
 }
