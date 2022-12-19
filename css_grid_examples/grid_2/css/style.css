@@ -1,0 +1,40 @@
+html,body {
+    height: 100%;
+}
+.wrap {
+    border-radius: 7px;
+    height: 100%;
+    padding: 15px;
+    background-color: rgb(54, 53, 53);
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "header header sidebar"
+        "main_1 main_2 sidebar";
+}
+
+.container {
+    border-radius: 10px;
+}
+
+.header {
+    grid-area: header;
+    background-color: tomato;
+}
+
+.main_1 {
+    grid-area: main_1;
+    background-color: rgb(12, 134, 204);
+}
+
+.main_2 {
+    grid-area: main_2;
+    background-color: rgb(26, 221, 221);
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: orange;
+}

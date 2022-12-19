@@ -1,0 +1,71 @@
+html,
+body {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+    padding: 10px;
+    background-color: rgb(51, 48, 48);
+    border-radius: 7px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 15px;
+    grid-template-areas:
+        "box1 box2 box3 box4 box5 "
+        "box6 box7 box_medium box_medium box_medium"
+        "box_long box_long box_long box_long box_long";
+}
+
+div[class^=box] {
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.box_1 {
+    grid-area: box1;
+    background: conic-gradient(red, green, blue);
+}
+
+.box_2 {
+    grid-area: box2;
+    background-color: rgba(127, 255, 133, 0.712);
+}
+
+.box_3 {
+    grid-area: box3;
+    background: radial-gradient(rgba(255, 0, 0, 0.774), rgb(79, 112, 65), rgb(63, 39, 204));
+}
+
+.box_4 {
+    grid-area: box4;
+    background-color: rgb(207, 189, 23);
+}
+
+.box_5 {
+    grid-area: box5;
+    background-color: rgb(25, 185, 177);
+}
+
+.box_6 {
+    grid-area: box6;
+    background-color: rgb(201, 36, 146);
+}
+
+.box_7 {
+    grid-area: box7;
+    background-color: rgb(184, 70, 104);
+}
+
+.box_medium {
+    grid-area: box_medium;
+    background: linear-gradient(to right, black, yellow, white);
+}
+
+.box_long {
+    grid-area: box_long;
+    background: linear-gradient(to left, tomato, orange, green);
+}

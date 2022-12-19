@@ -1,0 +1,5 @@
+fieldset {
+    box-sizing: border-box;
+    max-width: 300px;
+    background-color: bisque;
+}
