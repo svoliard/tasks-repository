@@ -1,37 +1,28 @@
 function countryPhoneCode(countryISO) {
-    if (countryISO === 'BHS') {
-        countryISO = '+1-242';
-    }
-    else if (countryISO === 'BRN') {
-        countryISO = '+673';
-    }
-    else if (countryISO === 'COL') {
-        countryISO = '+57';
-    }
-    else if (countryISO === 'CZE') {
-        countryISO = '+420';
-    }
-    else if (countryISO === 'FIN') {
-        countryISO = '+358';
-    }
-    else if (countryISO === 'MDA') {
-        countryISO = '+373';
-    }
-    else if (countryISO === 'NPL') {
-        countryISO = '+977';
-    }
-    else if (countryISO === 'PAL') {
-        countryISO = '+680';
-    }
-    else if (countryISO === 'QAT') {
-        countryISO = '+974';
-    }
-    else if (countryISO === 'MSR') {
-        countryISO = '+1-664';
-    }
-    else {
-        countryISO = 'there is no other country';
+    switch (countryISO) {
+        case 'BHS':
+            return '+1-242';
+        case 'BRN':
+            return '+673';
+        case 'COL':
+            return '+57';
+        case 'CZE':
+            return '+420';
+        case 'FIN':
+            return '+358';
+        case 'MDA':
+            return '+373';
+        case 'NPL':
+            return '+977';
+        case 'PAL':
+            return '+680';
+        case 'QAT':
+            return '+974';
+        case 'MSR':
+            return '+1-664';
+        default:
+            return 'there is no other country';
     }
     document.getElementById("phone_prefix").innerHTML = countryISO;
 }
-countryPhoneCode('FIN');
+document.write(countryPhoneCode('MSR'));
