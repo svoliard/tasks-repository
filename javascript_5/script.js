@@ -1,2 +1,4 @@
-const countries = ["Moldova", "Romania", "Germania", "Polonia", "Marea_Britanie", "Elvetia"];
-document.getElementById("demo").innerHTML = countries.join(" * ");
+function countries(arrayExample, separator) {
+    return arrayExample.join(separator);
+}
+console.log(countries(['k', 'l', 'm'], '+'));
