@@ -17,4 +17,5 @@
 (#17 to do)Exercises:javascript_1;
 (#18 to do)Exercises:javascript_2;javascript_2.1;
 (#19 to do)Exercises:javascript_3;javascript_3.1;javascript_3.2;
-(#20 to do)
+(#20 to do)Exercises:javascript_4;javascript_4.1;javascript_4.2;
+(#21 to do)Exercises:javascript_5;javascript_5.1;
