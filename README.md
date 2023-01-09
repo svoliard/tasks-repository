@@ -19,3 +19,4 @@
 (#19 to do)Exercises:javascript_3;javascript_3.1;javascript_3.2;
 (#20 to do)Exercises:javascript_4;javascript_4.1;javascript_4.2;
 (#21 to do)Exercises:javascript_5;javascript_5.1;
+(#22 to do)Exercises:javascript_6;javascript_6.1;javascript_6.2;
