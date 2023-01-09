@@ -1,14 +1,18 @@
-const numbers = [4, 60, 53, 26, 2, 98, 11, 145, 3]
-
-let maximum = -Infinity
-let minimum = Infinity
-
-for (let number of numbers) {
-    if (number > maximum)
-        maximum = number
-
-    if (number < minimum)
-        minimum = number
+function findMin(arrayData) {
+    let minValue = Infinity;
+    for (item of arrayData) {
+        if (item < minValue)
+            minValue = item;
+    }
+    return minValue;
 }
-
-console.log(`Maximum: ${maximum};` + ` Minimum: ${minimum}`);
+/*
+function findMax(arrayData) {
+    let maxValue = -Infinity;
+    for (item of arrayData) {
+        if (item > maxValue)
+        maxValue = item;
+    }
+    return maxValue;
+}
+*/
