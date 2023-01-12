@@ -1,0 +1,28 @@
+.button, .remove {
+    padding: 10px;
+    display: inline;
+    border-radius: 4px;
+    font-family: "Arial";
+    border: 0;
+    margin: 0 10px;
+    padding: 5px;
+    background: red;
+    font-size: 15px;
+    line-height: 15px;
+    color: white;
+    width: auto;
+    height: auto;
+    box-sizing: content-box;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+img {
+    transition: display .2ms ease;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block;
+    margin-top: 30px;
+}
