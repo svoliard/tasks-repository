@@ -21,3 +21,4 @@
 (#21 to do)Exercises:javascript_5;javascript_5.1;
 (#22 to do)Exercises:javascript_6;javascript_6.1;javascript_6.2;
 (#23 to do)Exercises:javascript_7;javascript_7.1;javascript_7.2;
+(#24 to do)Exercises:javascript_8;javascript_8.1;javascript_8.2;
