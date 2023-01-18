@@ -23,3 +23,4 @@
 (#23 to do)Exercises:javascript_7;javascript_7.1;javascript_7.2;
 (#24 to do)Exercises:javascript_8;javascript_8.1;javascript_8.2;
 (#25 to do)Exercises:javascript_9;javascript_9.1;javascript_9.2;
+(#26 to do)Exercises:javascript_10;javascript_10.1;javascript_10.2;javascript_10.3;javascript_10.4;
